@@ -31,8 +31,10 @@ def read_from_hash(hash, key)
 end 
 
 def update_counting_hash(hash, key)
-  update_counting_hash = {hash => key}
-  return hash[key]
+  update_counting_hash = {x:1}
+  update_counting_hash.update({y:2})
+  update_counting_hash == {x:1, y:2}
+  return update_counting_hash
   
 #   a = {x: 1}
 # a.update({y: 2})
