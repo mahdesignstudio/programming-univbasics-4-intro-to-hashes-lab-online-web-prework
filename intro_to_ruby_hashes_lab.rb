@@ -33,6 +33,10 @@ end
 def update_counting_hash(hash, key)
   update_counting_hash = {hash => key}
   return hash[key]
+  
+#   a = {x: 1}
+# a.update({y: 2})
+# a == {x: 1, y: 2}
 end 
   
   # given a hash an a key as parameters, return an updated hash
