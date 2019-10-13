@@ -33,7 +33,7 @@ end
 def update_counting_hash(hash, key)
    update_counting_hash = {
      :number = 1 
-     :amount = 50 
+     :amount =  
    }
   return update_counting_hash[1]
   
