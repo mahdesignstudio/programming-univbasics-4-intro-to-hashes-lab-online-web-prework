@@ -31,8 +31,11 @@ def read_from_hash(hash, key)
 end 
 
 def update_counting_hash(hash, key)
-   update_counting_hash = {"hello" => 1, "age" => 2, "total"=> 5}
-  return update_counting_hash[2]
+   update_counting_hash = {
+     :number = 1 
+     :amount = 50 
+   }
+  return update_counting_hash[1]
   
   # given a hash an a key as parameters, return an updated hash
   # if the provided key is not present in the hash, add it and assign it to the value of 1
