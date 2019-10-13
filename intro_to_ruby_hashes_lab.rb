@@ -30,12 +30,12 @@ def read_from_hash(hash, key)
  
 end
 
-def update_counting_hash(hash, key)
-  update_counting_hash = {name: "Sam", age: 31}
-end 
-  person[:age]
-end 
-person[:age] = 32
+# #def update_counting_hash(hash, key)
+#   update_counting_hash = {name: "Sam", age: 31}
+# end 
+#   person[:age]
+# end 
+# person[:age] = 32
   
   # given a hash an a key as parameters, return an updated hash
   # if the provided key is not present in the hash, add it and assign it to the value of 1
