@@ -24,11 +24,11 @@ def my_hash_creator(key, value)
 end
 
 def read_from_hash(hash, key)
- read_from_hash = {hash => key}
- if read_from_hash[hash]
-   puts key 
+ read_from_hash = {:hash => "key"}
+ if read_from_hash[:hash]
+   puts "key"
  else 
-   puts nil 
+   puts "nil"
 end
 
 def update_counting_hash(hash, key)
