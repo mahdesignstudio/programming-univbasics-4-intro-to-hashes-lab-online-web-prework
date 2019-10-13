@@ -31,17 +31,12 @@ def read_from_hash(hash, key)
 end 
 
 def update_counting_hash(hash, key)
-  update_counting_hash = {x:1}
-  update_counting_hash.update({y:2})
-  update_counting_hash == {x:1, y:2}
- 
-  
-#   a = {x: 1}
-# a.update({y: 2})
-# a == {x: 1, y: 2}
-end 
-  
+   update_counting_hash = {"hash" => 1}
+   return hash[1]
+ end 
+ update_counting_hash["hash"] = update_counting_hash["hash"] + 1 
+ end 
   # given a hash an a key as parameters, return an updated hash
   # if the provided key is not present in the hash, add it and assign it to the value of 1
   # if the provided key is present, increment its value by 1
-end
+
