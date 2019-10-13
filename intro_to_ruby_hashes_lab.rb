@@ -32,6 +32,7 @@ end
 
 def update_counting_hash(hash, key)
   update_counting_hash = {hash => key}
+  return hash[key]
 end 
   
   # given a hash an a key as parameters, return an updated hash
